@@ -3,8 +3,7 @@
 void setup(void)
 { 
   Serial.begin(115200);
-  //WiFi.begin("SSID,Password");
-  WiFi.begin("iitk");
+  WiFi.begin("SSID,Password");
   while (WiFi.status() != WL_CONNECTED) 
   {
      delay(500);
@@ -14,7 +13,7 @@ void setup(void)
   Serial.println("");
   Serial.println("WiFi connection Successful");
   Serial.print("The IP Address of ESP8266 Module is: ");
-  Serial.print(WiFi.localIP());// Print the IP address
+  Serial.print(WiFi.localIP());  // Print the IP address
 }
 
 void loop() 
