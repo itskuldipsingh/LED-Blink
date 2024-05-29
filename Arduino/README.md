@@ -11,7 +11,7 @@ This Arduino project allows you to control the blinking frequency of an LED dyna
 
 ### Setup
 1. Connect the LED's anode to the digital pin 13 on the Arduino board through a series resistor and connect the LED's cathode to the ground (GND). 
-2. Upload the provided Arduino sketch [led_blink_dynamic.ino](https://github.com/itskuldipsingh/Arduino/blob/main/Led%20blink/Dynamic%20frequency/led_blink_dynamic_frequency.ino) to your Arduino board using the Arduino IDE. 
+2. Upload the provided Arduino sketch [led_blink_dynamic.ino](https://github.com/itskuldipsingh/LED-Blink/blob/main/Arduino/led_blink_dynamic_frequency.ino) to your Arduino board using the Arduino IDE. 
 
 3. Open the Serial Monitor in the Arduino IDE (`Tools -> Serial Monitor`).
 4. Enter a new frequency in the Serial Monitor and press "Enter" to update the LED blinking frequency. 
